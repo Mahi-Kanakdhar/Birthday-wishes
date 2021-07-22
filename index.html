@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+		<br><br>
+		<canvas id="myCanvas" width="600" height="400"></canvas>
+		<br>
+		<button onclick="playSound()" class="btn btn-warning btn-lg" id="but">Dear Dad</button>
+	</center>
+	<br><br>
+    <center>
+	<h1 id="head_info" class="btn-danger">NOTE:You can move the pic</h1>
+    <br><br>
+    <p>Click on the blue bar for a Surprise!!!</p>
+    </center>
+    <br><br>
+	<center>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#endgame">
+            <span class="glyphicon glyphicon-film"></span> Happy Birthday Dad <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="endgame" class="collapse">
+            
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h1 class="text-success text-left text-capitalize">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+
+                </h1>
+                <h2>Dad, you're the greatest.<br> It's not just because you're there for me through good times and bad.<br> It's also because you make the bad times good with your amazing love and support. <br>Happy birthday!</h2>
+				<h3>Happy birthday to the world’s most<br> incredible,<br> wonderful,<br> unbelievable,<br> amazing,<br> awesome, <br>marvelous and,<br> of course, handsome Dad!</h3>
+				<h4>To say I'm thankful for having a father like you is an understatement. I'm overjoyed, lucky, blessed, you name it. Happy birthday!</h4>
+            </div>
+        </div>
+	</center>
+	<audio id="myAudio" src="bdayaudio.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+</html>

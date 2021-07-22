@@ -1,0 +1,41 @@
+.body_backgorund 
+{
+    background-image:url(hOye.gif);
+    background-position:center;
+    background-size:cover;
+}
+#myCanvas
+{
+    border-width: 10px;
+    background-color: white;
+    border-style: ridge;
+    border-color: darkviolet;
+}
+
+#but{
+    background-color:blueviolet;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+#head_info
+{
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
